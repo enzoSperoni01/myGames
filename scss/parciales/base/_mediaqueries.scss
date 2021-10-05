@@ -1,0 +1,245 @@
+// Media Queries
+@include mobile { // Telefono
+    html {
+        font-size: 35%; /* 1rem == 10px */
+        font-family: 'Lato', Helvetica, sans-serif;
+    }
+
+    .grid-index {
+        display: grid;
+        grid-template-areas:"header"
+                            "main "
+                            "footer";
+    }
+
+    .grid-index header {
+        grid-area: header;
+    } 
+
+    .grid-index main {
+        grid-area: main;
+    }
+
+    .grid-index footer {
+        grid-area: footer;
+    }
+
+    /* Header */
+    .header {
+        width: 100%;
+        height: auto;
+    }
+
+    .header .header__logo {
+        font-size: 3rem;
+    }
+
+    .flex-header {
+        flex-direction: column;
+    }
+
+    .flex-header .header__nav__list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__nav__list li {
+        margin: 2rem 0;
+        font-size: 2rem;
+    }
+
+    .header .header__button {
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+
+    /* Main */
+    .main__sections .main__sections__flex {
+        flex-direction: column-reverse;
+    }
+
+    .main__sections__flex .main__sections__flex__left h1,
+    .main__sections__flex .main__sections__flex__left p {
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .main__sections__flex .main__sections__flex__right img {
+        width: 40rem;
+    }
+
+    #contenido-index .grid-main {
+        grid-template-columns: none !important; //Quitar el !important y averiguar el problema
+        grid-template-areas:"card-1"
+                            "card-2"
+                            "card-3";
+    }
+
+    #contenido-index .grid-main section p {
+        font-size: 2.7rem;
+    }
+
+    .section-3 {
+        grid-area: card-1;
+    }
+
+    .section-4 {
+        grid-area: card-2;
+    }
+
+    .section-5 {
+        grid-area: card-3;
+    }
+
+    /* ? CAROUSEL */
+    .carousel-none {
+        display: none;
+    }
+
+    /* ! Sección Proyecto */
+    .contenedor-proyecto .titulo-prod {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .contenedor-proyecto .parrafos {
+        font-size: 2rem;
+    }
+
+    .img-proyecto {
+        width: 95%;
+    }
+
+    /* Footer */
+    .flex-footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .flex-footer .footer__list {
+        margin: 0;
+    }
+
+    .flex-footer .footer__p {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@include mobile-2 { // Telefono 2
+    .grid-index {
+        display: grid;
+        grid-template-areas: "header"
+                            "main "
+                            "footer";
+    }
+    
+    .grid-index header {
+        grid-area: header;
+    } 
+    
+    .grid-index main {
+        grid-area: main;
+    }
+    
+    .grid-index footer {
+        grid-area: footer;
+    }
+    /* Header */
+    .header {
+        width: 100%;
+        height: auto;
+    }
+
+    .header .logo {
+        font-size: 3rem;
+    }
+
+    .flex-header {
+        flex-direction: column;
+    }
+
+    .flex-header .nav-links {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-links li {
+        margin: 2rem 0;
+        font-size: 2rem;
+    }
+
+    .header button {
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+
+    /* Main */
+    main .main__sections__flex {
+        flex-direction: column-reverse;
+    }
+
+    .main__sections__flex .flex-left h1,
+    .main__sections__flex .flex-left p {
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .main__sections__flex .flex-right img {
+        width: 40rem;
+    }
+
+    #contenido-index .grid-main {
+        grid-template-columns: none;
+        grid-template-areas:"card-1"
+                            "card-2"
+                            "card-3";
+    }
+
+    #contenido-index .grid-main section p {
+        font-size: 2.7rem;
+    }
+
+    .section-3 {
+        grid-area: card-1;
+    }
+
+    .section-4 {
+        grid-area: card-2;
+    }
+
+    .section-5 {
+        grid-area: card-3;
+    }
+
+    /* ! Sección Proyecto */
+    .contenedor-proyecto .titulo-prod {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .contenedor-proyecto .parrafos {
+        font-size: 2.4rem;
+    }
+
+    .img-proyecto {
+        max-width: 95%;
+    }
+
+    /* Footer */
+    .flex-footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .flex-footer ul {
+        margin: 0;
+    }
+
+    .flex-footer .derechos-r {
+        text-align: center;
+        margin: 0;
+    }
+}

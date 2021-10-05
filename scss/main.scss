@@ -1,0 +1,20 @@
+// Utilidades
+@import "parciales/utilities/variables";
+@import "parciales/utilities/mixins";
+
+
+// Contenido
+@import "parciales/header";
+@import "parciales/index";
+@import "parciales/footer";
+@import "parciales/error";
+
+// Base
+@import "parciales/base/reset";
+@import "parciales/base/typo";
+@import "parciales/base/mediaqueries";
+
+
+/* Acordate que cada vez que inicies esta carpeta, tenes que activar el 'watch'
+en la terminal de windows, asi desde un principio comienza a hacer los cambios en
+el sass y se transportan al main.css*/
