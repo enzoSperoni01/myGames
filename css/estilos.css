@@ -870,13 +870,13 @@ form .div-6 .reset:hover {
     }
 } */
 
-@media screen and (min-width: 768px) { /* ! Tablet */
-    html {
+/* @media screen and (min-width: 768px) { ! Tablet */
+    /* html {
         font-size: 57%;
-    }
+    } */
 
     /* Header */
-    .header {
+    /* .header {
         height: 40vh;
     }
 
@@ -899,10 +899,10 @@ form .div-6 .reset:hover {
     .header button {
         padding: 2rem;
         font-size: 1.5rem;
-    }
+    } */
 
     /* ! Seccion Proyecto */
-    .contenedor-proyecto .titulo-prod {
+    /* .contenedor-proyecto .titulo-prod {
         font-size: 3rem;
         text-align: center;
     }
@@ -913,14 +913,14 @@ form .div-6 .reset:hover {
 
     .img-proyecto {
         max-width: 95%;
-    }
+    } */
 
     /* Footer */
-    .flex-footer {
+    /* .flex-footer {
         flex-direction: row;
         justify-content: space-around;
     }
-}
+} */
 
 @media screen and (min-width: 1024px) { /* ! Desktop */
     html {
