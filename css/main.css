@@ -261,6 +261,126 @@ h2 .mygames-titulo, .proyecto-p .mygames-titulo {
   text-shadow: 0 0 10px #000;
 }
 
+form {
+  margin: 10rem;
+  padding: 5rem;
+  border-radius: 5rem;
+  background: #323b43;
+  box-shadow: 15px 15px 30px #2d353c, -15px -15px 30px #38414a;
+}
+form input {
+  font-size: 1.7rem;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 1.2rem;
+  box-shadow: inset 0px 0px 15px 2px rgba(0, 0, 0, 0.3);
+}
+form div label {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+form div select {
+  padding: 1rem;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 300;
+  border-radius: 1.2rem;
+  width: 20rem;
+  outline: none;
+}
+form div select option {
+  font-weight: 700;
+  border-radius: 1.2rem;
+}
+form .title-contact {
+  font-size: 6rem;
+  letter-spacing: 1px;
+  text-shadow: -4px 4px 0 #0f8b81, -8px 9px 0 rgba(0, 0, 0, 0.4);
+}
+form .form-container div {
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
+form .div-1 div {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+}
+form .div-1 div .op-1 {
+  display: inline-block;
+}
+form .div-1 div .op-2 {
+  display: inline-block;
+}
+form .div-1 input[type=radio] {
+  box-shadow: none;
+  width: 2rem;
+  height: 2rem;
+}
+form .form-container .div-4 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+form input[type=checkbox] {
+  margin-left: 0.4rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  box-shadow: none;
+}
+form .div-5 textarea {
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 1.7rem;
+  margin: 1rem 0;
+  padding: 1.6rem;
+  border: none;
+  border-radius: 1.2rem;
+  box-shadow: inset 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+  resize: none;
+  width: 40%;
+  transition: 0.5s;
+}
+form .div-5 textarea:focus {
+  width: 95%;
+  outline: none;
+}
+form .div-6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+form .div-6 input {
+  padding: 1.5rem 10rem;
+  box-shadow: none;
+  border-radius: 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.4s;
+  cursor: pointer;
+}
+form .div-6 .send {
+  box-shadow: inset 0 0 0 0 #0f8b81;
+  background-color: #2bee75;
+  transition: ease-out 0.6s;
+}
+form .div-6 .send:hover {
+  box-shadow: inset 0 10rem 0 0 #0f8b81;
+}
+form .div-6 .reset {
+  box-shadow: inset 0 0 0 0 #ff0045;
+  background-color: #f9e406;
+  transition: ease-out 0.6s;
+}
+form .div-6 .reset:hover {
+  box-shadow: inset 0 -10rem 0 0 #ff0045;
+}
+
 .footer {
   background-color: #414e58;
   padding: 2rem;
