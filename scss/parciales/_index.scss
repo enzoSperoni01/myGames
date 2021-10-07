@@ -86,6 +86,9 @@
             letter-spacing: .2rem;
             text-shadow: 0 0 6px #000;
             @include spacing(6rem, 4.2rem);
+            .contenedor-t {
+                margin: 3rem;
+            }
         }
     }
 }

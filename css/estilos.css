@@ -350,7 +350,7 @@ main .enlaces:hover::after {
 
 
 /* ? Galeria de Imagenes - Index */
-.galeria-index {
+/* .galeria-index {
     width: 90%;
     margin-bottom: 5rem;
 }
@@ -358,12 +358,12 @@ main .enlaces:hover::after {
 .galeria-index .div-galeria {
     border-radius: .6rem 7rem .6rem 7rem;
     align-self: center;
-}
+} */
 
 /* ? Testimonios - Index */
-.contenedor-t {
+/* .contenedor-t {
     margin: 3rem;
-}
+} */
 
 
 

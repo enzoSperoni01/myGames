@@ -149,9 +149,21 @@
   margin: 6rem;
   padding: 4.2rem;
 }
+.main__sections__div__tests__h2 .contenedor-t {
+  margin: 3rem;
+}
 
 h2 .mygames-titulo, .proyecto-p .mygames-titulo {
   text-decoration: 0.3rem wavy underline #f54b64;
+}
+
+.galeria-index {
+  width: 90%;
+  margin-bottom: 5rem;
+}
+.galeria-index .div-galeria {
+  border-radius: 0.6rem 7rem 0.6rem 7rem;
+  align-self: center;
 }
 
 .contenedor-producto {
