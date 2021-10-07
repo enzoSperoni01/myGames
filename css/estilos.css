@@ -318,9 +318,9 @@ main .enlaces:hover::after {
     font-size: 3.5rem;
 } */
 
-h2 .mygames-titulo, .cont-p .mygames-titulo, .proyecto-p .mygames-titulo {
+/* h2 .mygames-titulo, .proyecto-p .mygames-titulo {
     text-decoration: .3rem wavy underline #f54b64;
-}
+} */
 
 
 /* ! Grid - Index */
@@ -922,8 +922,8 @@ form .div-6 .reset:hover {
     }
 } */
 
-@media screen and (min-width: 1024px) { /* ! Desktop */
-    html {
+/* @media screen and (min-width: 1024px) { ! Desktop */
+    /* html {
         font-size: 60.5%;
         overflow-x: hidden;
         max-width: 100%;
@@ -933,15 +933,15 @@ form .div-6 .reset:hover {
         margin-right: 0;
         font-size: 60.5%;
         max-width: 100%;
-    }
+    } */
 
     /* Header */
-    .header {
+    /* .header {
         max-width: 100%;
         height: auto;
     }
 
-    .header .logo {
+    .header .header__logo {
         font-size: 5rem;
     }
 
@@ -954,11 +954,11 @@ form .div-6 .reset:hover {
     .header .header__button {
         padding: .9rem 2.5rem;
         font-size: 1.5rem;
-    }
+    } */
 
 
     /* Main */
-    main .main__sections__flex {
+    /* main .main__sections__flex {
         flex-direction: row;
         margin-left: 2.5rem;
         margin-right: 2.5rem;
@@ -981,10 +981,10 @@ form .div-6 .reset:hover {
 
     #contenido-index .grid-main section p {
         font-size: 2rem;
-    }
+    } */
 
     /* ! Sección Proyecto */
-    .contenedor-proyecto .titulo-prod {
+    /* .contenedor-proyecto .titulo-prod {
         font-size: 5rem;
         text-align: left;
     }
@@ -995,27 +995,24 @@ form .div-6 .reset:hover {
 
     .img-proyecto {
         max-width: 100%;
-    }
+    } */
 
     /* Footer */
-    .flex-footer {
+    /* .flex-footer {
         height: auto;
         justify-content: space-between;
         align-items: center;
         width: 100%;
     }
     
-    .flex-footer ul {
+    .flex-footer .footer__list {
         margin-left: 5rem;
-    }
-    
-    .pie-pagina ul {
         width: 25rem;
         justify-content: space-between;
     }
     
-    .pie-pagina .derechos-r {
+    .flex-footer .footer__p  {
         text-align: right;
         margin-right: 5rem;
     }
-}
+} */

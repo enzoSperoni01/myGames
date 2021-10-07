@@ -150,6 +150,10 @@
   padding: 4.2rem;
 }
 
+h2 .mygames-titulo, .proyecto-p .mygames-titulo {
+  text-decoration: 0.3rem wavy underline #f54b64;
+}
+
 .footer {
   background-color: #485661;
   padding: 2rem;
@@ -532,6 +536,99 @@ body {
   .flex-footer {
     flex-direction: row;
     justify-content: space-around;
+  }
+}
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 60.5%;
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  body {
+    margin-right: 0;
+    font-size: 60.5%;
+    max-width: 100%;
+  }
+
+  /* Header */
+  .header {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .header .header__logo {
+    font-size: 5rem;
+  }
+
+  .flex-header {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .header .header__button {
+    padding: 0.9rem 2.5rem;
+    font-size: 1.5rem;
+  }
+
+  /* Main */
+  main .main__sections__flex {
+    flex-direction: row;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .main__sections__flex .flex-left h1,
+.main__sections__flex .flex-left p {
+    text-align: start;
+    line-height: 1.2;
+  }
+
+  .main__sections__flex .flex-right img {
+    width: 100%;
+  }
+
+  #contenido-index .grid-main {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "card-1 card-2 card-3";
+  }
+
+  #contenido-index .grid-main section p {
+    font-size: 2rem;
+  }
+
+  /* ! Sección Proyecto */
+  .contenedor-proyecto .titulo-prod {
+    font-size: 5rem;
+    text-align: left;
+  }
+
+  .contenedor-proyecto .parrafos {
+    font-size: 3rem;
+  }
+
+  .img-proyecto {
+    max-width: 100%;
+  }
+
+  /* Footer */
+  .flex-footer {
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .flex-footer .footer__list {
+    margin-left: 5rem;
+    width: 25rem;
+    justify-content: space-between;
+  }
+
+  .flex-footer .footer__p {
+    text-align: right;
+    margin-right: 5rem;
   }
 }
 /* Acordate que cada vez que inicies esta carpeta, tenes que activar el 'watch'
