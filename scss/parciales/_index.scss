@@ -82,12 +82,13 @@
     }
 
     &__div__tests { // Testimonios
+        padding: 4rem;
         &__h2 {
             letter-spacing: .2rem;
             text-shadow: 0 0 6px #000;
-            @include spacing(6rem, 4.2rem);
+            @include spacing(6rem, 2rem);
             .contenedor-t {
-                margin: 3rem;
+                margin: 2.5rem;
             }
         }
     }

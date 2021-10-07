@@ -143,14 +143,17 @@
   font-size: 2rem;
   margin: 1rem;
 }
+.main__sections__div__tests {
+  padding: 4rem;
+}
 .main__sections__div__tests__h2 {
   letter-spacing: 0.2rem;
   text-shadow: 0 0 6px #000;
   margin: 6rem;
-  padding: 4.2rem;
+  padding: 2rem;
 }
 .main__sections__div__tests__h2 .contenedor-t {
-  margin: 3rem;
+  margin: 2.5rem;
 }
 
 h2 .mygames-titulo, .proyecto-p .mygames-titulo {
@@ -304,6 +307,75 @@ body {
   /* 1rem == 10px */
   font-family: "Lato", Helvetica, sans-serif;
   line-height: 1.2;
+}
+
+main a:hover {
+  color: #f54b64;
+}
+main .enlaces {
+  position: relative;
+}
+main .enlaces::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.2rem;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 220ms ease-in;
+}
+main .enlaces:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.enlaces {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.parrafos {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+}
+
+.titulos {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.listas {
+  list-style: none;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Barra de Scroll */
+::-webkit-scrollbar {
+  width: 1.2rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ac394d;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e64d66;
+  border-radius: 5rem;
+}
+
+/* Cuando selecciona con el mouse */
+::selection {
+  background-color: #f5566e;
+  color: #fff;
 }
 
 @media screen and (min-width: 320px) and (max-width: 550px) {

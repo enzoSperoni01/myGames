@@ -30,7 +30,7 @@ html {
 } */
 
 
-/* ? Barra de Scroll */
+/* ? Barra de Scroll
 ::-webkit-scrollbar {
     width: 1.2rem;
 }
@@ -44,18 +44,18 @@ html {
     border-radius: 5rem;
 }
 
-/* ? Cuando selecciona con el mouse */
-::selection {
+? Cuando selecciona con el mouse */
+/* ::selection {
     background-color: #f5566e;
     color: #fff;
-}
+} */
 
-.centrar {
+/* .centrar {
     text-align: center;
 }
 
 .enlaces {
-    text-decoration: none; /* Sacarle la línea de abajo */
+    text-decoration: none; 
     color: #ffffff;
 }
 
@@ -100,7 +100,7 @@ main .enlaces:hover::after {
     list-style: none;
     font-size: 2rem;
     font-weight: 700;
-}
+} */
 
 /* * Encabezado */
 /* .header {
