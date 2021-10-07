@@ -368,7 +368,7 @@ main .enlaces:hover::after {
 
 
 /* ! Sección - Proyecto */
-.contenedor-proyecto {
+/* .contenedor-proyecto {
     margin: 5rem;
     padding: 5rem;
     background-color: #53575f;
@@ -391,12 +391,12 @@ main .enlaces:hover::after {
     letter-spacing: .3rem;
     margin-bottom: 5rem;
     text-shadow: 0 0 10px #000;
-}
+} */
 
-.proyecto-p .parrafos {
+/* .proyecto-p .parrafos {
     margin-bottom: 3rem;
     text-align: left;
-}
+} */
 
 
 

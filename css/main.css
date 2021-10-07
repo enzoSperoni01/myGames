@@ -199,6 +199,32 @@ h2 .mygames-titulo, .proyecto-p .mygames-titulo {
   text-shadow: 0 0 10px #000;
 }
 
+.contenedor-proyecto {
+  margin: 5rem;
+  padding: 5rem;
+  background-color: #53575f;
+  border-radius: 2rem;
+  border: 5px solid #ee4962;
+  box-shadow: 0 0 3rem 1.5rem #f54b64;
+}
+.contenedor-proyecto .flex-proyecto {
+  display: flex;
+  flex-flow: row wrap;
+}
+.contenedor-proyecto .flex-proyecto .proyecto-p .parrafos {
+  margin-bottom: 3rem;
+  text-align: left;
+}
+.contenedor-proyecto .flex-proyecto .img-proyecto {
+  border-radius: 1rem;
+  max-width: 90%;
+}
+.contenedor-proyecto .contenedor-titulo {
+  letter-spacing: 0.3rem;
+  margin-bottom: 5rem;
+  text-shadow: 0 0 10px #000;
+}
+
 .footer {
   background-color: #414e58;
   padding: 2rem;
