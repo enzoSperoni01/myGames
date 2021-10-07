@@ -17,7 +17,7 @@
   color: #fff;
 }
 .header__logo {
-  font-size: 5rem;
+  font-size: 4.5rem;
   text-shadow: 0 0 5px black;
   height: auto;
   margin: 0;
@@ -273,6 +273,20 @@ h2 .mygames-titulo, .proyecto-p .mygames-titulo {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-areas: "header header header" "main main main" "footer footer footer";
+}
+.grid-main header {
+  grid-area: header;
+}
+.grid-main main {
+  grid-area: main;
+}
+.grid-main footer {
+  grid-area: footer;
 }
 
 /* ? Tipografía: 'Lato' */
