@@ -446,7 +446,7 @@ main .enlaces:hover::after {
 
 
 /* ! Sección - Productos */
-.contenedor-producto {
+/* .contenedor-producto {
     margin: 7rem;
     padding: 7rem;
     background-color: #53575f;
@@ -473,12 +473,12 @@ main .enlaces:hover::after {
 .flex-productos img:hover {
     box-shadow: 0px 15px 10px -5px rgba(0,0,0,0.75);
     transform: scale(1.1);
-}
+} */
 
-.titulo-prod {
+/* .titulo-prod {
     margin-bottom: 3rem;
     text-shadow: 0 0 10px #000;
-}
+} */
 
 
 

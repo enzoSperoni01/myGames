@@ -154,8 +154,38 @@ h2 .mygames-titulo, .proyecto-p .mygames-titulo {
   text-decoration: 0.3rem wavy underline #f54b64;
 }
 
+.contenedor-producto {
+  margin: 7rem;
+  padding: 7rem;
+  background-color: #53575f;
+  border-radius: 2rem;
+  border: 5px solid #ee4962;
+  box-shadow: 0 0 3rem 1.5rem #f54b64;
+}
+.contenedor-producto .contenido-producto .flex-productos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contenedor-producto .contenido-producto .flex-productos img {
+  cursor: pointer;
+  margin: 2.5rem;
+  max-width: 25rem;
+  border-radius: 1rem;
+  box-shadow: none;
+  transition: all 0.3s;
+}
+.contenedor-producto .contenido-producto .flex-productos img:hover {
+  box-shadow: 0px 15px 10px -5px rgba(0, 0, 0, 0.75);
+  transform: scale(1.1);
+}
+.contenedor-producto .titulo-prod {
+  margin-bottom: 3rem;
+  text-shadow: 0 0 10px #000;
+}
+
 .footer {
-  background-color: #485661;
+  background-color: #414e58;
   padding: 2rem;
 }
 .footer__list {
