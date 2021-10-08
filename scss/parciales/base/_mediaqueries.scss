@@ -98,13 +98,14 @@
     }
 
     /* ! Sección Proyecto */
-    .contenedor-proyecto .titulo-prod {
-        font-size: 3.1rem;
-        text-align: center;
-    }
-
-    .contenedor-proyecto .parrafos {
-        font-size: 2rem;
+    .contenedor-proyecto {
+        .titulo-prod {
+            font-size: 3.1rem;
+            text-align: center;
+        }
+        .parrafos {
+            font-size: 2rem;
+        }    
     }
 
     .img-proyecto {
@@ -117,6 +118,25 @@
             font-size: 3.1rem;
             text-align: center;
             letter-spacing: .2rem;
+        }
+    }
+
+    /* Sección Nosotros*/
+    .contenedor-nosotros {
+        .nosotros-titulo {
+            h1 {
+                font-size: 3.1rem;
+                text-align: center;
+                letter-spacing: .2rem;
+            }
+        }
+        .nosotros-p {
+            .parrafos {
+                font-size: 2.2rem;
+            }
+        }
+        .img-nosotros {
+            width: 95%;
         }
     }
 
@@ -246,6 +266,25 @@
         }
     }
 
+    /* Sección Nosotros*/
+    .contenedor-nosotros {
+        .nosotros-titulo {
+            h1 {
+                font-size: 3.1rem;
+                text-align: center;
+                letter-spacing: .2rem;
+            }
+        }
+        .nosotros-p {
+            .parrafos {
+                font-size: 2.2rem;
+            }
+        }
+        .img-nosotros {
+            width: 95%;
+        }
+    }
+
     /* Footer */
     .flex-footer {
         flex-direction: column;
@@ -313,6 +352,25 @@
             font-size: 3.7rem;
             text-align: center;
             letter-spacing: .1rem;
+        }
+    }
+
+    /* Sección Nosotros*/
+    .contenedor-nosotros {
+        .nosotros-titulo {
+            h1 {
+                font-size: 3.7rem;
+                text-align: center;
+                letter-spacing: .2rem;
+            }
+        }
+        .nosotros-p {
+            .parrafos {
+                font-size: 2.6rem;
+            }
+        }
+        .img-nosotros {
+            width: 95%;
         }
     }
 
@@ -404,6 +462,25 @@
             font-size: 5rem;
             text-align: left;
             letter-spacing: .2rem;
+        }
+    }
+
+    /* Sección Nosotros*/
+    .contenedor-nosotros {
+        .nosotros-titulo {
+            h1 {
+                font-size: 5rem;
+                text-align: left;
+                letter-spacing: .2rem;
+            }
+        }
+        .nosotros-p {
+            .parrafos {
+                font-size: 3rem;
+            }
+        }
+        .img-nosotros {
+            width: 100%;
         }
     }
 

@@ -231,7 +231,6 @@ h2 .mygames-titulo, .proyecto-p .mygames-titulo {
 }
 .contenedor-nosotros .img-nosotros {
   border-radius: 2rem;
-  border: 5px solid #ccc;
   width: 100%;
 }
 
@@ -660,7 +659,6 @@ main .enlaces:hover::after {
     font-size: 3.1rem;
     text-align: center;
   }
-
   .contenedor-proyecto .parrafos {
     font-size: 2rem;
   }
@@ -674,6 +672,19 @@ main .enlaces:hover::after {
     font-size: 3.1rem;
     text-align: center;
     letter-spacing: 0.2rem;
+  }
+
+  /* Sección Nosotros*/
+  .contenedor-nosotros .nosotros-titulo h1 {
+    font-size: 3.1rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+  }
+  .contenedor-nosotros .nosotros-p .parrafos {
+    font-size: 2.2rem;
+  }
+  .contenedor-nosotros .img-nosotros {
+    width: 95%;
   }
 
   /* Footer */
@@ -796,6 +807,19 @@ main .enlaces:hover::after {
     letter-spacing: 0.2rem;
   }
 
+  /* Sección Nosotros*/
+  .contenedor-nosotros .nosotros-titulo h1 {
+    font-size: 3.1rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+  }
+  .contenedor-nosotros .nosotros-p .parrafos {
+    font-size: 2.2rem;
+  }
+  .contenedor-nosotros .img-nosotros {
+    width: 95%;
+  }
+
   /* Footer */
   .flex-footer {
     flex-direction: column;
@@ -861,6 +885,19 @@ main .enlaces:hover::after {
     font-size: 3.7rem;
     text-align: center;
     letter-spacing: 0.1rem;
+  }
+
+  /* Sección Nosotros*/
+  .contenedor-nosotros .nosotros-titulo h1 {
+    font-size: 3.7rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+  }
+  .contenedor-nosotros .nosotros-p .parrafos {
+    font-size: 2.6rem;
+  }
+  .contenedor-nosotros .img-nosotros {
+    width: 95%;
   }
 
   /* Footer */
@@ -948,6 +985,19 @@ main .enlaces:hover::after {
     font-size: 5rem;
     text-align: left;
     letter-spacing: 0.2rem;
+  }
+
+  /* Sección Nosotros*/
+  .contenedor-nosotros .nosotros-titulo h1 {
+    font-size: 5rem;
+    text-align: left;
+    letter-spacing: 0.2rem;
+  }
+  .contenedor-nosotros .nosotros-p .parrafos {
+    font-size: 3rem;
+  }
+  .contenedor-nosotros .img-nosotros {
+    width: 100%;
   }
 
   /* Footer */
