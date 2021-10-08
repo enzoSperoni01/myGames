@@ -657,7 +657,7 @@ main .enlaces:hover::after {
 
   /* ! Sección Proyecto */
   .contenedor-proyecto .titulo-prod {
-    font-size: 3rem;
+    font-size: 3.1rem;
     text-align: center;
   }
 
@@ -667,6 +667,13 @@ main .enlaces:hover::after {
 
   .img-proyecto {
     width: 95%;
+  }
+
+  /* Sección Productos */
+  .contenedor-producto .titulo-prod {
+    font-size: 3.1rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
   }
 
   /* Footer */
@@ -770,7 +777,7 @@ main .enlaces:hover::after {
 
   /* ! Sección Proyecto */
   .contenedor-proyecto .titulo-prod {
-    font-size: 3rem;
+    font-size: 3.1rem;
     text-align: center;
   }
 
@@ -780,6 +787,13 @@ main .enlaces:hover::after {
 
   .img-proyecto {
     max-width: 95%;
+  }
+
+  /* Sección Productos */
+  .contenedor-producto .titulo-prod {
+    font-size: 3.5rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
   }
 
   /* Footer */
@@ -830,7 +844,7 @@ main .enlaces:hover::after {
 
   /* ! Seccion Proyecto */
   .contenedor-proyecto .titulo-prod {
-    font-size: 3rem;
+    font-size: 3.7rem;
     text-align: center;
   }
 
@@ -840,6 +854,13 @@ main .enlaces:hover::after {
 
   .img-proyecto {
     max-width: 95%;
+  }
+
+  /* Sección Productos */
+  .contenedor-producto .titulo-prod {
+    font-size: 3.7rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
   }
 
   /* Footer */
@@ -920,6 +941,13 @@ main .enlaces:hover::after {
 
   .img-proyecto {
     max-width: 100%;
+  }
+
+  /* Sección Productos */
+  .contenedor-producto .titulo-prod {
+    font-size: 5rem;
+    text-align: left;
+    letter-spacing: 0.2rem;
   }
 
   /* Footer */
