@@ -629,6 +629,10 @@ main .enlaces:hover::after {
     width: 40rem;
   }
 
+  #contenido-index .grid-main .a-nosotros {
+    color: #f54b64;
+  }
+
   #contenido-index .grid-main {
     grid-template-columns: none !important;
     grid-template-areas: "card-1" "card-2" "card-3";
@@ -935,7 +939,7 @@ main .enlaces:hover::after {
 
   /* Header */
   .header {
-    height: 40vh;
+    height: 34vh;
   }
 
   .flex-header {
@@ -957,6 +961,11 @@ main .enlaces:hover::after {
   .header .header__button {
     padding: 2rem;
     font-size: 1.5rem;
+  }
+
+  /* Inicio */
+  #contenido-index .grid-main .a-nosotros {
+    color: #f54b64;
   }
 
   /* ! Seccion Proyecto */
