@@ -104,7 +104,7 @@
 .main__sections__flex__left__h1 {
   text-align: start;
   line-height: 1.2;
-  text-shadow: -3px 3px 0 #f54b64, -7px 8px 0 rgba(0, 0, 0, 0.4);
+  text-shadow: -3px 4px 0 #f54b64, -6px 8px 0 rgba(0, 0, 0, 0.4);
   font-size: 6rem;
   margin-bottom: 2.5rem;
 }
@@ -591,7 +591,7 @@ main .enlaces:hover::after {
   }
 
   .header .header__logo {
-    font-size: 3rem;
+    font-size: 3.2rem;
   }
 
   .flex-header {
@@ -623,6 +623,10 @@ main .enlaces:hover::after {
 .main__sections__flex .main__sections__flex__left p {
     text-align: center;
     line-height: 1.6;
+  }
+
+  .main__sections__flex__left h1 {
+    text-shadow: -2px 3px 0 #f54b64, -4px 6px 0 rgba(0, 0, 0, 0.4);
   }
 
   .main__sections__flex .main__sections__flex__right img {

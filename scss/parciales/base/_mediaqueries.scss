@@ -31,7 +31,7 @@
     }
 
     .header .header__logo {
-        font-size: 3rem;
+        font-size: 3.2rem;
     }
 
     .flex-header {
@@ -63,6 +63,13 @@
     .main__sections__flex .main__sections__flex__left p {
         text-align: center;
         line-height: 1.6;
+    }
+
+    .main__sections__flex__left {
+        h1 {
+            text-shadow:-2px 3px 0 $color-primary, 
+                        -4px 6px 0 rgba(0, 0, 0, 0.4);
+        }
     }
 
     .main__sections__flex .main__sections__flex__right img {

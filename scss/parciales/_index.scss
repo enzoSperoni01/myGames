@@ -28,7 +28,8 @@
             &__h1 {
                 text-align: start;
                 line-height: 1.2;
-                text-shadow: -3px 3px 0 $color-primary, -7px 8px 0 rgba(0, 0, 0, 0.4);
+                text-shadow:-3px 4px 0 $color-primary, 
+                            -6px 8px 0 rgba(0, 0, 0, 0.4);
                 font-size: 6rem;
                 margin-bottom: 2.5rem;
             }
