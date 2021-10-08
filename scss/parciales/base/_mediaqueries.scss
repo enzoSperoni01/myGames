@@ -140,6 +140,56 @@
         }
     }
 
+    /* Sección Contacto */
+    form {
+        @include spacing(4.5rem, 3.5rem);
+        .title-contact {
+            font-size: 4rem;
+            letter-spacing: 1px;
+            margin-bottom: 4rem;
+            text-shadow:-2px 2px 0 #0f8b81, 
+                        -4px 4px 0 rgba(0, 0, 0, 0.4);
+        }
+        input {
+            font-size: 2rem;
+            @include spacing(1rem 0, 1.5rem);
+            border-radius: 1rem;
+        }
+        div {
+            label {
+                font-size: 2.3rem;
+                font-weight: 700;
+                letter-spacing: 1.3px;
+            }
+            select {
+                font-size: 1.8rem;
+                font-weight: 400;
+                border-radius: 1rem;
+            }
+        }
+        .div-1 {
+            .op-1, .op-2 {
+                font-size: 1.9rem;
+            }
+            input[type=radio] {
+                @include imagen(2.3rem, 2.3rem);
+            }
+        }
+        .div-5 {
+            textarea {
+                width: 100%;
+                font-size: 2rem;
+            }
+            textarea:focus {
+                width: 100%;
+            }
+        }
+        .div-6 {
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+    }
+
     /* Footer */
     .flex-footer {
         flex-direction: column;
@@ -285,6 +335,56 @@
         }
     }
 
+    /* Sección Contacto */
+    form {
+        @include spacing(4.5rem, 3.5rem);
+        .title-contact {
+            font-size: 4rem;
+            letter-spacing: 1px;
+            margin-bottom: 4rem;
+            text-shadow:-2px 2px 0 #0f8b81, 
+                        -4px 4px 0 rgba(0, 0, 0, 0.4);
+        }
+        input {
+            font-size: 2rem;
+            @include spacing(1rem 0, 1.5rem);
+            border-radius: 1rem;
+        }
+        div {
+            label {
+                font-size: 2.3rem;
+                font-weight: 700;
+                letter-spacing: 1.3px;
+            }
+            select {
+                font-size: 1.8rem;
+                font-weight: 400;
+                border-radius: 1rem;
+            }
+        }
+        .div-1 {
+            .op-1, .op-2 {
+                font-size: 1.9rem;
+            }
+            input[type=radio] {
+                @include imagen(2.3rem, 2.3rem);
+            }
+        }
+        .div-5 {
+            textarea {
+                width: 100%;
+                font-size: 2rem;
+            }
+            textarea:focus {
+                width: 100%;
+            }
+        }
+        .div-6 {
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+    }
+
     /* Footer */
     .flex-footer {
         flex-direction: column;
@@ -374,6 +474,46 @@
         }
     }
 
+    /* Sección Contacto */
+    form {
+        @include spacing(4.5rem, 3.5rem);
+        .title-contact {
+            font-size: 4.5rem;
+            text-shadow:-3px 3px 0 #0f8b81, 
+                        -5px 6px 0 rgba(0, 0, 0, 0.4);
+        }
+        input {
+            font-size: 1.5rem;
+        }
+        div {
+            label {
+                font-size: 2.1rem;
+                letter-spacing: 1px;
+            }
+            select {
+                font-size: 1.6rem;
+            }
+        }
+        .div-1 {
+            .op-1, .op-2 {
+                font-size: 1.8rem;
+            }
+            input[type=radio] {
+                @include imagen(2rem, 2rem);
+            }
+        }
+        .div-5 {
+            textarea {
+                width: 100%;
+                font-size: 1.7rem;
+            }
+        }
+        .div-6 {
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+    }
+
     /* Footer */
     .flex-footer {
         flex-direction: row;
@@ -414,7 +554,6 @@
         padding: .9rem 2.5rem;
         font-size: 1.5rem;
     }
-
 
     /* Main */
     main .main__sections__flex {
@@ -481,6 +620,64 @@
         }
         .img-nosotros {
             width: 100%;
+        }
+    }
+
+    /* Sección Contacto */
+    form {
+        @include spacing(5.5rem 9rem, 5rem);
+        input {
+            font-size: 1.7rem;
+            border-radius: 1.2rem;
+        }
+        div {
+            label {
+                font-size: 2.5rem;
+                letter-spacing: 1px;
+            }
+            select {
+                font-size: 1.6rem;
+                font-weight: 400;
+                border-radius: 1.2rem;
+            }
+        }
+        .title-contact {
+            font-size: 6rem;
+            margin-bottom: 3rem;
+            text-shadow:-4px 4px 0 #0f8b81, 
+                        -8px 9px 0 rgba(0, 0, 0, 0.4);
+        }
+        .form-container {
+            div {
+                display: flex;
+                flex-flow: column wrap;
+                font-size: 1.5rem;
+                margin: 1.5rem 0;
+            }
+        }
+        .div-1 {
+            .op-1, .op-2 {
+                font-size: 2.2rem;
+            }
+            input[type=radio] {
+                @include imagen(2rem, 2rem);
+            }
+        }
+        .div-5 {
+            textarea {
+                font-size: 1.7rem;
+                width: 50%;
+                transition: .6s;
+            }
+            textarea:focus {
+                width: 100%;
+                outline: none;
+            }
+        }
+        .div-6 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
         }
     }
 

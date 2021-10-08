@@ -274,6 +274,7 @@ form input {
   border: none;
   border-radius: 1.2rem;
   box-shadow: inset 0px 0px 15px 2px rgba(0, 0, 0, 0.3);
+  outline: none;
 }
 form div label {
   font-size: 2.5rem;
@@ -687,6 +688,52 @@ main .enlaces:hover::after {
     width: 95%;
   }
 
+  /* Sección Contacto */
+  form {
+    margin: 4.5rem;
+    padding: 3.5rem;
+  }
+  form .title-contact {
+    font-size: 4rem;
+    letter-spacing: 1px;
+    margin-bottom: 4rem;
+    text-shadow: -2px 2px 0 #0f8b81, -4px 4px 0 rgba(0, 0, 0, 0.4);
+  }
+  form input {
+    font-size: 2rem;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+  form div label {
+    font-size: 2.3rem;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+  }
+  form div select {
+    font-size: 1.8rem;
+    font-weight: 400;
+    border-radius: 1rem;
+  }
+  form .div-1 .op-1, form .div-1 .op-2 {
+    font-size: 1.9rem;
+  }
+  form .div-1 input[type=radio] {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+  form .div-5 textarea {
+    width: 100%;
+    font-size: 2rem;
+  }
+  form .div-5 textarea:focus {
+    width: 100%;
+  }
+  form .div-6 {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
   /* Footer */
   .flex-footer {
     flex-direction: column;
@@ -820,6 +867,52 @@ main .enlaces:hover::after {
     width: 95%;
   }
 
+  /* Sección Contacto */
+  form {
+    margin: 4.5rem;
+    padding: 3.5rem;
+  }
+  form .title-contact {
+    font-size: 4rem;
+    letter-spacing: 1px;
+    margin-bottom: 4rem;
+    text-shadow: -2px 2px 0 #0f8b81, -4px 4px 0 rgba(0, 0, 0, 0.4);
+  }
+  form input {
+    font-size: 2rem;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+  form div label {
+    font-size: 2.3rem;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+  }
+  form div select {
+    font-size: 1.8rem;
+    font-weight: 400;
+    border-radius: 1rem;
+  }
+  form .div-1 .op-1, form .div-1 .op-2 {
+    font-size: 1.9rem;
+  }
+  form .div-1 input[type=radio] {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+  form .div-5 textarea {
+    width: 100%;
+    font-size: 2rem;
+  }
+  form .div-5 textarea:focus {
+    width: 100%;
+  }
+  form .div-6 {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
   /* Footer */
   .flex-footer {
     flex-direction: column;
@@ -898,6 +991,41 @@ main .enlaces:hover::after {
   }
   .contenedor-nosotros .img-nosotros {
     width: 95%;
+  }
+
+  /* Sección Contacto */
+  form {
+    margin: 4.5rem;
+    padding: 3.5rem;
+  }
+  form .title-contact {
+    font-size: 4.5rem;
+    text-shadow: -3px 3px 0 #0f8b81, -5px 6px 0 rgba(0, 0, 0, 0.4);
+  }
+  form input {
+    font-size: 1.5rem;
+  }
+  form div label {
+    font-size: 2.1rem;
+    letter-spacing: 1px;
+  }
+  form div select {
+    font-size: 1.6rem;
+  }
+  form .div-1 .op-1, form .div-1 .op-2 {
+    font-size: 1.8rem;
+  }
+  form .div-1 input[type=radio] {
+    width: 2rem;
+    height: 2rem;
+  }
+  form .div-5 textarea {
+    width: 100%;
+    font-size: 1.7rem;
+  }
+  form .div-6 {
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
   /* Footer */
@@ -998,6 +1126,57 @@ main .enlaces:hover::after {
   }
   .contenedor-nosotros .img-nosotros {
     width: 100%;
+  }
+
+  /* Sección Contacto */
+  form {
+    margin: 5.5rem 9rem;
+    padding: 5rem;
+  }
+  form input {
+    font-size: 1.7rem;
+    border-radius: 1.2rem;
+  }
+  form div label {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  form div select {
+    font-size: 1.6rem;
+    font-weight: 400;
+    border-radius: 1.2rem;
+  }
+  form .title-contact {
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    text-shadow: -4px 4px 0 #0f8b81, -8px 9px 0 rgba(0, 0, 0, 0.4);
+  }
+  form .form-container div {
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  form .div-1 .op-1, form .div-1 .op-2 {
+    font-size: 2.2rem;
+  }
+  form .div-1 input[type=radio] {
+    width: 2rem;
+    height: 2rem;
+  }
+  form .div-5 textarea {
+    font-size: 1.7rem;
+    width: 50%;
+    transition: 0.6s;
+  }
+  form .div-5 textarea:focus {
+    width: 100%;
+    outline: none;
+  }
+  form .div-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   /* Footer */
