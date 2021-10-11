@@ -682,6 +682,9 @@ main .enlaces:hover::after {
     text-align: center;
     letter-spacing: 0.2rem;
   }
+  .contenedor-producto .contenido-producto .flex-productos img {
+    margin: 2rem auto;
+  }
 
   /* Sección Nosotros*/
   .contenedor-nosotros .nosotros-titulo h1 {
@@ -861,6 +864,9 @@ main .enlaces:hover::after {
     text-align: center;
     letter-spacing: 0.2rem;
   }
+  .contenedor-producto .contenido-producto .flex-productos img {
+    margin: 2rem auto;
+  }
 
   /* Sección Nosotros*/
   .contenedor-nosotros .nosotros-titulo h1 {
@@ -991,6 +997,9 @@ main .enlaces:hover::after {
     font-size: 3.7rem;
     text-align: center;
     letter-spacing: 0.1rem;
+  }
+  .contenedor-producto .contenido-producto .flex-productos img {
+    margin: 2rem auto;
   }
 
   /* Sección Nosotros*/
@@ -1126,6 +1135,9 @@ main .enlaces:hover::after {
     font-size: 5rem;
     text-align: left;
     letter-spacing: 0.2rem;
+  }
+  .contenedor-producto .contenido-producto .flex-productos img {
+    margin: 2.5rem;
   }
 
   /* Sección Nosotros*/
